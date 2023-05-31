@@ -1,0 +1,14 @@
+import numpy as np
+import pandas as pd
+import pyttsx3
+import streamlit as st
+from PIL import Image
+
+from sklearn import preprocessing, tree
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.preprocessing import Normalizer
+import pickle
+import os
